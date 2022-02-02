@@ -1,0 +1,77 @@
+html {
+    font-family: sans-serif;
+}
+nav {
+    margin-top: 10px;
+    background-color: #12452b;
+    position: sticky;
+}
+nav a:hover {
+    background-color: #cedbd4;
+}
+nav a {
+    display: block;
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #8fe3b3;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    padding-left: 5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.project-tile {
+    max-width: 100%;
+    display: block;
+    background-color: #9fd1b0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: xx-large;
+    margin: 0 0 0 0;
+}
+.projects-A {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;              
+  justify-content: space-between;
+  background-color: lightyellow;
+}
+.tech-doc {
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+}
+.sur-for {
+    width:200px;
+    height:100px;
+    top: 50%;
+    left: 50%;
+    margin-top: 0;
+    margin-right: 270px;
+}
+.pro-land {
+    float: right;
+    width: 100px;
+    margin-right: 190px;
+}
+section p {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: #183d24;
+    margin-top: 100px;
+}
+section a {
+    align-items: center;
+}
+
+}
